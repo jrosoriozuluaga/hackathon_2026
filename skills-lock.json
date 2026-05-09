@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "skills": {
+    "agent-harness-construction": {
+      "source": "affaan-m/everything-claude-code",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/agent-harness-construction/SKILL.md",
+      "computedHash": "4dc4344ceed7cb5a8c99ca156d4d45a88b8d8b3df593bc3545e9847e9022208d"
+    },
+    "create-connector": {
+      "source": "harness/harness-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/create-connector/SKILL.md",
+      "computedHash": "f34cca8dd5c4bf000e5b558a2e4392fb2af17c9e727e5fed87e49f9bb924ad55"
+    },
+    "create-infrastructure": {
+      "source": "harness/harness-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/create-infrastructure/SKILL.md",
+      "computedHash": "570b0b91b9be6160b2335721f70848f5bfca06227764534f71eeb1203f3ed8b6"
+    },
+    "create-pipeline": {
+      "source": "harness/harness-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/create-pipeline/SKILL.md",
+      "computedHash": "76e670d3559b50a9491a9523e457643a533daeba5c95a2c2ae3bf6908a79d166"
+    },
+    "create-policy": {
+      "source": "harness/harness-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/create-policy/SKILL.md",
+      "computedHash": "94ef403962dcc595765dd824120b9039675cef6ddbaf0a58f206f20fe68f8b72"
+    },
+    "create-secret": {
+      "source": "harness/harness-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/create-secret/SKILL.md",
+      "computedHash": "aad0998c7330f872cb242e814cd95addc3ff5db856d1ccad23cbf810f7f31a87"
+    },
+    "create-template": {
+      "source": "harness/harness-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/create-template/SKILL.md",
+      "computedHash": "1f103891c064f4dd0db2a0b932c940caff83e975b68e9c66cbc6095881a1c824"
+    },
+    "debug-pipeline": {
+      "source": "harness/harness-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/debug-pipeline/SKILL.md",
+      "computedHash": "3b7ce57a21e4135e455ceb7b3b55cfa49ec30b0f539e6ae67195235504f5a10e"
+    },
+    "manage-roles": {
+      "source": "harness/harness-skills",
+      "sourceType": "github",
+      "skillPath": ".agents/skills/manage-roles/SKILL.md",
+      "computedHash": "92f17af1a2d81638ea1e5df03c76b802a24b9cc38d47bb5444fca906ee227379"
+    }
+  }
+}
