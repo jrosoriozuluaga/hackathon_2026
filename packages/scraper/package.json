@@ -1,0 +1,23 @@
+{
+  "name": "@lli/scraper",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo 'no linter configured yet'",
+    "scrape": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@lli/shared": "workspace:*",
+    "@supabase/supabase-js": "^2.45.0",
+    "cheerio": "^1.0.0",
+    "playwright": "^1.45.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}

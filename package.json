@@ -1,0 +1,18 @@
+{
+  "name": "latam-lead-intelligence",
+  "version": "0.1.0",
+  "private": true,
+  "description": "LatAm lead intelligence platform — hackathon 2026",
+  "scripts": {
+    "dev": "pnpm --filter @lli/api dev",
+    "dev:scraper": "pnpm --filter @lli/scraper dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "db:migrate": "psql $DATABASE_URL -f db/migrations/001_initial.sql"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  }
+}
